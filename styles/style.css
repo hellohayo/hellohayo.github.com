@@ -1,5 +1,25 @@
-ul,h1 {
-  color: red;
-  width: 300px;
-  border: 2px solid black;
+body{
+  background-color:#f6f6f6;
+  color:#555555;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:bold;
+
+  font: bold 16px Arial, Helvetica, sans-serif ;
+}
+
+body h1{
+  font-style:italic;
+  color:gray;
+}
+
+.box1{
+  background-color: orangered;
+}
+
+.container{
+  background-color:royalblue;
+  width:60%;  
+  color:red;
 }
