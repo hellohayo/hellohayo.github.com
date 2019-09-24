@@ -2,28 +2,99 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>papa's website</title>
-   
- <!--   <link href="styles/style.css" rel="stylesheet" type="text/css">
-	    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">   -->
-		
+
   </head>
-  <body>
+  <body bgcolor="#87CEFA">
+    <!-- headings -->
     <h1>珮珮testtest123</h1>
-    <img src="images/micky.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+    <h3>珮珮testtest123</h3>
+    <img style="width:10vw" src="images/earth.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+    <blockquote>the earth</blockquote>
 
-    <p>列表</p>
 
+    <!-- paragraph -->
+    <div class="container">
+        <p>css內容測試</p>
+      <div class="box1">
+        <p>css內容測試1</p>
+      </div>
+           
+      
+    </div>
+    <div class="box2">
+      <p>css內容測試2</p>
+    </div>
+   
+
+    <p>It's a <strong>paragraph </strong>用strong粗體字</p>
+    <p>This is <em>second</em>用em改為斜體字 paragraph</p>
+  
+    <!-- lists -->
     <ul>
       <li>第一項</li>
       <li>第二項</li>
       <li>第三項</li>
     </ul>
+    <ol>
+      <li>第一項</li>
+      <li>第二項</li>
+      <li>第三項</li>
+    </ol>
+     <!-- table -->
+  <table>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>heigh</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>mary</td>
+        <td>30</td>
+        <td>165</td>
+      </tr>
+      <tr>
+        <td>john</td>
+        <td>80</td>
+        <td>188</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <br>
+    <!-- form -->
+    <form action="form.js">
+      <div>
+        <label>First name</label>
+        <input type="text" name="firstname" placeholder="請輸入姓氏"> 
+      </div>
+      <div>
+        <label>Last name</label>
+        <input type="text" name="lastname" placeholder="請輸入名字"> 
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="text" name="email" placeholder="請輸入郵箱"> 
+      </div>
+      <input type="submit" name="submit" value="送出">
+    </form>
 
-    <p>內文</p>
+    <!-- form -->
+    <p><abbr title="這是一隻豬">PIG</abbr>NO</p>
+    <p><cite>PIG</cite> by pig's mom</p>
+  <br>
 
+	第一行<br>
+	第二行<br><hr>
+	第三行
+
+    
     <p>谷歌<a href="https://www.google.com.tw/" target="_blank" title="臭東東">GOOGLE</a></p>
-	<input type="text" disabled>
-    <input type="text">
+  
+  <div style="margin-top:200px">空行</div>
   </body>
 </html>
