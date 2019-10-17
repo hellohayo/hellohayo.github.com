@@ -7,19 +7,111 @@ body{
   font-weight:bold;
 
   font: bold 16px Arial, Helvetica, sans-serif ;
+  line-height: 1.5em;
+  
+}
+.list li{
+  color:black;
+  background-color: gray;
+  list-style-image: url("../images/pumpkin.png");
 }
 
+body img{
+
+  margin:10px 80px;
+}
 body h1{
   font-style:italic;
   color:gray;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  word-spacing: 2em;
 }
 
 .box1{
   background-color: orangered;
+
+  border:5px green solid;
+  border-right:10px blue double;
+  padding:13px;
+  margin:19px;
+  border-radius:40px;
+}
+
+.box2{
+  text-align: center;
+
+}
+
+button{
+  background-color: hotpink;
+  color: indigo;
+  padding:10px 15px;
+}
+
+button:hover{
+  background-color: dodgerblue;
+}
+
+button:active{
+  background-color: firebrick;
+}
+
+a{
+  text-decoration:none;
+  color:  crimson;
+}
+
+a:hover{
+  color: cornflowerblue;
+}
+
+a:visited{
+  color: darksalmon;
 }
 
 .container{
   background-color:royalblue;
   width:60%;  
   color:red;
+}
+
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#fivefive{
+  float:left;
+  width:70%;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#sixsix{
+  float:right;
+  width:30%;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.list2 li:nth-child(even){
+  background-color: aquamarine;
+}
+
+.list2 li:first-child{
+  background-color: cornflowerblue
+}
+
+#fix{
+  position: fixed;
+  right: 0;
+  bottom:0;
 }
